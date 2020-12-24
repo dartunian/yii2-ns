@@ -31,8 +31,7 @@
     "portal-vue": "^2.1.7",
     "tailwindcss": "^1.2.0",
     "vue": "^2.6.11",
-    "vue-meta": "^2.3.3",
-    "bootstrap": "^4.5.3"
+    "vue-meta": "^2.3.3"
   },
   "devDependencies": {
     "@fullhuman/postcss-purgecss": "^2.1.0",
