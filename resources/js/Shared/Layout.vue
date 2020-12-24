@@ -9,7 +9,7 @@
               <logo class="fill-white" width="160" height="40" />
             </inertia-link>
             <dropdown class="md:hidden" placement="bottom-end">
-              <div slot="dropdown" class="mt-2 px-8 py-4 shadow-lg bg-indigo-800 rounded">
+              <div slot="dropdown" class="mt-2 px-8 py-4 shadow-lg bg-blue-200 rounded">
                 <main-menu :url="url()" />
               </div>
             </dropdown>
