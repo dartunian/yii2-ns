@@ -6,7 +6,7 @@
         <div class="md:flex">
           <div class="bg-blue-500 md:flex-shrink-0 md:w-56 px-6 py-4 flex items-center justify-between md:justify-center">
             <inertia-link class="mt-1" href="/">
-              <logo class="fill-blue-300" width="120" height="28" />
+              <logo class="fill-white" width="160" height="40" />
             </inertia-link>
             <dropdown class="md:hidden" placement="bottom-end">
               <div slot="dropdown" class="mt-2 px-8 py-4 shadow-lg bg-indigo-800 rounded">
