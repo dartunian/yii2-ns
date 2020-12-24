@@ -1,14 +1,32 @@
 <template>
-  <div>
-    <h1 class="mb-8 font-bold text-3xl">Reports</h1>
-  </div>
+  <b-row>
+    <b-col md="auto">
+      <b-calendar v-model="value" @context="onContext" locale="en-US"></b-calendar>
+    </b-col>
+    <b-col>
+      <p>Value: <b>'{{ value }}'</b></p>
+      <p class="mb-0">Context:</p>
+      <pre class="small">{{ context }}</pre>
+    </b-col>
+  </b-row>
 </template>
 
 <script>
 import Layout from '@/Shared/Layout'
 
-export default {
-  metaInfo: { title: 'Reports' },
-  layout: Layout,
-}
+  export default {
+    metaInfo: { title: 'Reports' },
+    layout: Layout,    
+    data() {
+      return {
+        value: '',
+        context: null
+      }
+    },
+    methods: {
+      onContext(ctx) {
+        this.context = ctx
+      }
+    }
+  }
 </script>
