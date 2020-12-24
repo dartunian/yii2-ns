@@ -10,3 +10,7 @@
 
 /* Utilities */
 @import "tailwindcss/utilities";
+
+/* Webpack example */
+@import 'bootstrap';
+@import 'bootstrap-vue';
