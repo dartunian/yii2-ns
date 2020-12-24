@@ -11,7 +11,7 @@ AppAsset::register($this);
 ?>
 <?php $this->beginPage() ?>
 <!DOCTYPE html>
-<html lang="<?= Yii::$app->language ?>" class="h-full bg-gray-200">
+<html lang="<?= Yii::$app->language ?>" class="h-full bg-blue-200">
 <head>
     <base href="<?= Url::base(true) ?>">
     <meta charset="<?= Yii::$app->charset ?>">
