@@ -35,4 +35,4 @@ tests/_support/_generated
 /node_modules
 
 #db file
-db.php
+config/db.php
